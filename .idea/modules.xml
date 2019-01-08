@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-remote-model-api/cloud-remote-model-api.iml" filepath="$PROJECT_DIR$/cloud-remote-model-api/cloud-remote-model-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-user/cloud-user.iml" filepath="$PROJECT_DIR$/cloud-user/cloud-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
     </modules>
   </component>
 </project>
