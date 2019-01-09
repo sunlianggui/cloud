@@ -5,12 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-car/cloud-car.iml" filepath="$PROJECT_DIR$/cloud-car/cloud-car.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-common/cloud-common.iml" filepath="$PROJECT_DIR$/cloud-common/cloud-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config/cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-remote-model-api/cloud-remote-model-api.iml" filepath="$PROJECT_DIR$/cloud-remote-model-api/cloud-remote-model-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-user/cloud-user.iml" filepath="$PROJECT_DIR$/cloud-user/cloud-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-repo/config.iml" filepath="$PROJECT_DIR$/config-repo/config.iml" />
     </modules>
   </component>
 </project>

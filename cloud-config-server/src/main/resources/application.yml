@@ -1,0 +1,17 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sunlianggui/cloud
+          search-paths: config
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8880/eureka
+

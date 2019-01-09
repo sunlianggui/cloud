@@ -15,7 +15,7 @@
         <module>cloud-remote-model-api</module>
         <module>cloud-common</module>
         <module>cloud-zuul</module>
-        <module>cloud-config</module>
+        <module>cloud-config-server</module>
     </modules>
 
     <parent>
