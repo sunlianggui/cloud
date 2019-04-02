@@ -3,24 +3,27 @@ package com.example.cloud.component;
 /**
  * Created by Administrator on 2019/1/7.
  */
-public class Result<T> {
+public class Response<T> {
+
+    public static final String success = "1";
+    public static final String error = "0";
 
     private String code;
     private T date;
     private String description;
 
-    public Result(String code, T date, String description) {
+    public Response(String code, T date, String description) {
         this.code = code;
         this.date = date;
         this.description = description;
     }
 
-    public Result(String code, String description) {
+    public Response(String code, String description) {
         this.code = code;
         this.description = description;
     }
 
-    public Result() {
+    public Response() {
     }
 
     public String getCode() {

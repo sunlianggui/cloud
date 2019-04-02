@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-car/cloud-car.iml" filepath="$PROJECT_DIR$/cloud-car/cloud-car.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-common/cloud-common.iml" filepath="$PROJECT_DIR$/cloud-common/cloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-remote-model-api/cloud-remote-model-api.iml" filepath="$PROJECT_DIR$/cloud-remote-model-api/cloud-remote-model-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-user/cloud-user.iml" filepath="$PROJECT_DIR$/cloud-user/cloud-user.iml" />

@@ -1,0 +1,5 @@
+com\example\cloud\client\CarClient.class
+com\example\cloud\service\impl\CarServiceImpl.class
+com\example\cloud\service\CarService.class
+com\example\cloud\web\api\impl\CarRemoteServiceApiImpl.class
+com\example\cloud\CarApplication.class

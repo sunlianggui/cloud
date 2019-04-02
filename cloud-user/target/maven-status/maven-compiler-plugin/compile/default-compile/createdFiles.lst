@@ -1,0 +1,16 @@
+com\example\cloud\config\DruidConfiguation.class
+com\example\cloud\entity\ModuleEntity.class
+com\example\cloud\mapper\RoleEntityMapper.class
+com\example\cloud\web\api\fallback\CarFailBackApi.class
+com\example\cloud\entity\RoleEntity.class
+com\example\cloud\service\impl\UserServiceImpl.class
+com\example\cloud\mapper\ModuleEntityMapper.class
+com\example\cloud\UserApplication.class
+com\example\cloud\web\admin\UserController.class
+com\example\cloud\web\api\callback\CarCallBackApi.class
+com\example\cloud\entity\ModuleRoleEntity.class
+com\example\cloud\mapper\UserRoleEntityMapper.class
+com\example\cloud\entity\UserEntity.class
+com\example\cloud\entity\UserRoleEntity.class
+com\example\cloud\mapper\UserEntityMapper.class
+com\example\cloud\service\UserService.class

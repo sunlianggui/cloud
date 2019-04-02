@@ -1,6 +1,6 @@
-package com.example.cloud.api.callback;
+package com.example.cloud.web.api.callback;
 
-import com.example.cloud.api.fallback.CarFailBackApi;
+import com.example.cloud.web.api.fallback.CarFailBackApi;
 import com.example.cloud.car.api.CarRemoteServiceApi;
 import org.springframework.cloud.openfeign.FeignClient;
 

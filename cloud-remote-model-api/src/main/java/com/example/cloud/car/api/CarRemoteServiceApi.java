@@ -1,7 +1,7 @@
 package com.example.cloud.car.api;
 
 import com.example.cloud.car.model.Car;
-import com.example.cloud.component.Result;
+import com.example.cloud.component.Response;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface CarRemoteServiceApi {
 
     @RequestMapping(value = "car", method = RequestMethod.GET)
-    public Result<Car> car();
+    Response<Car> car();
 }
