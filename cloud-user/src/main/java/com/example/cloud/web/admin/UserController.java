@@ -1,4 +1,4 @@
-package com.example.cloud.client;
+package com.example.cloud.web;
 
 import com.example.cloud.car.model.Car;
 import com.example.cloud.component.Result;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Administrator on 2019/1/7.
  */
 @RestController
-public class UserClient {
+public class UserController {
 
     @Autowired
     private UserService userService;
