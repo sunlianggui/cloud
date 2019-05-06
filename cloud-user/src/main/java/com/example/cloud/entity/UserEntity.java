@@ -2,6 +2,8 @@ package com.example.cloud.entity;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 public class UserEntity implements Serializable {
     private Integer uid;
@@ -14,9 +16,9 @@ public class UserEntity implements Serializable {
 
     private Integer age;
 
-    private Date createtime;
+    private String salt;
 
-    private Date updatetime;
+    private Set<RoleEntity> roles = new HashSet<>();
 
     private static final long serialVersionUID = 1L;
 
@@ -60,19 +62,23 @@ public class UserEntity implements Serializable {
         this.age = age;
     }
 
-    public Date getCreatetime() {
-        return createtime;
+    public Set<RoleEntity> getRoles() {
+        return roles;
     }
 
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
+    public void setRoles(Set<RoleEntity> roles) {
+        this.roles = roles;
     }
 
-    public Date getUpdatetime() {
-        return updatetime;
+    public String getSalt() {
+        return salt;
     }
 
-    public void setUpdatetime(Date updatetime) {
-        this.updatetime = updatetime;
+    public void setSalt(String salt) {
+        this.salt = salt;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 }

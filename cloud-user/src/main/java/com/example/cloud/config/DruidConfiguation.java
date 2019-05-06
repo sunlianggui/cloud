@@ -82,7 +82,7 @@ public class DruidConfiguation {
     private String connectionProperties;
 
 
-    @Bean
+    @Bean(name = "dataSource")
     @Primary
     public DataSource dataSource(){
         DruidDataSource datasource = new DruidDataSource();

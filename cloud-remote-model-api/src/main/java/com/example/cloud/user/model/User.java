@@ -1,31 +1,28 @@
 package com.example.cloud.user.model;
 
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by Administrator on 2019/3/28.
  */
 public class User implements Serializable {
 
-    public String userName;
+    public String username;
     public int age;
     public String sex;
+    private Set<Role> roles = new HashSet<>();
 
     public User() {
     }
 
-    public User(String userName, int age, String sex) {
-        this.userName = userName;
-        this.age = age;
-        this.sex = sex;
+    public String getUsername() {
+        return username;
     }
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public int getAge() {
@@ -42,5 +39,13 @@ public class User implements Serializable {
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
     }
 }

@@ -2,15 +2,16 @@ package com.example.cloud.entity;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 public class ModuleEntity implements Serializable {
+
     private Integer mid;
 
     private String mname;
 
-    private Date createtime;
-
-    private Date updatetime;
+    private Set<RoleEntity> roles = new HashSet<>();
 
     private static final long serialVersionUID = 1L;
 
@@ -30,19 +31,11 @@ public class ModuleEntity implements Serializable {
         this.mname = mname == null ? null : mname.trim();
     }
 
-    public Date getCreatetime() {
-        return createtime;
+    public Set<RoleEntity> getRoles() {
+        return roles;
     }
 
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
-    }
-
-    public Date getUpdatetime() {
-        return updatetime;
-    }
-
-    public void setUpdatetime(Date updatetime) {
-        this.updatetime = updatetime;
+    public void setRoles(Set<RoleEntity> roles) {
+        this.roles = roles;
     }
 }

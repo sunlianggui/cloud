@@ -2,59 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbb4edc-723d-48fb-935d-b2795d2a0bc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-server/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/DruidConfiguation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/resources/application-dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generatorConfig.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-car/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-car/target/classes/com/example/cloud/api/impl/CarRemoteServiceApiImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-common/target/classes/com/example/cloud/component/Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/api/callback/CarCallBackApi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/api/callback/Fail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/client/UserClient.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-car/target/classes/com/example/cloud/CarApplication.class" afterPath="$PROJECT_DIR$/cloud-car/target/classes/com/example/cloud/CarApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/target/classes/com/example/cloud/ConfigApplication.class" afterPath="$PROJECT_DIR$/cloud-config-server/target/classes/com/example/cloud/ConfigApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka/target/classes/com/example/cloud/EurekaApplication.class" afterPath="$PROJECT_DIR$/cloud-eureka/target/classes/com/example/cloud/EurekaApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-remote-model-api/target/classes/com/example/cloud/car/api/CarRemoteServiceApi.class" afterPath="$PROJECT_DIR$/cloud-remote-model-api/target/classes/com/example/cloud/car/api/CarRemoteServiceApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-remote-model-api/target/classes/com/example/cloud/car/model/Car.class" afterPath="$PROJECT_DIR$/cloud-remote-model-api/target/classes/com/example/cloud/car/model/Car.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/UserApplication.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/UserApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/service/UserService.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/Utils/ModelAndEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Module.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/custom/HashedCredentialsMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/custom/MyShiroRealmService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/filter/EncodeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/interceptor/BootInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/ShiroConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/WebAppConfigurer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-car/target/cloud-car-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cloud-car/target/cloud-car-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/target/cloud-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cloud-common/target/cloud-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/target/cloud-config-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cloud-config-server/target/cloud-config-server-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka/target/cloud-eureka-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cloud-eureka/target/cloud-eureka-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-remote-model-api/target/classes/com/example/cloud/user/model/User.class" afterPath="$PROJECT_DIR$/cloud-remote-model-api/target/classes/com/example/cloud/user/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-remote-model-api/target/cloud-remote-model-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cloud-remote-model-api/target/cloud-remote-model-api-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/config/DruidConfiguation.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/config/DruidConfiguation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/ModuleEntity.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/ModuleEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/ModuleRoleEntity.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/ModuleRoleEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/RoleEntity.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/RoleEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/UserEntity.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/entity/UserEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/mapper/UserEntityMapper.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/mapper/UserEntityMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/com/example/cloud/ZuulApplication.class" afterPath="$PROJECT_DIR$/cloud-zuul/target/classes/com/example/cloud/ZuulApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/com/example/cloud/fallback/UserFallBackProvider$1.class" afterPath="$PROJECT_DIR$/cloud-zuul/target/classes/com/example/cloud/fallback/UserFallBackProvider$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-zuul/target/classes/com/example/cloud/fallback/UserFallBackProvider.class" afterPath="$PROJECT_DIR$/cloud-zuul/target/classes/com/example/cloud/fallback/UserFallBackProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/cloud-user-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cloud-user/target/cloud-user-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-zuul/target/cloud-zuul-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cloud-zuul/target/cloud-zuul-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/src/main/java/com/example/cloud/ConfigApplication.java" afterPath="$PROJECT_DIR$/cloud-config-server/src/main/java/com/example/cloud/ConfigApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-config-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/cloud-config-server/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka/target/classes/application.yml" afterPath="$PROJECT_DIR$/cloud-eureka/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/car/api/CarRemoteServiceApi.java" afterPath="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/car/api/CarRemoteServiceApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/cloud-user.iml" afterPath="$PROJECT_DIR$/cloud-user/cloud-user.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/cloud-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java" afterPath="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/pom.xml" afterPath="$PROJECT_DIR$/cloud-user/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/UserApplication.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/UserApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/DruidConfiguation.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/DruidConfiguation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/ModuleEntity.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/ModuleEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/RoleEntity.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/RoleEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/UserEntity.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/UserEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.xml" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/UserService.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/UserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-user/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/application.yml" afterPath="$PROJECT_DIR$/cloud-user/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/mapper/UserEntityMapper.xml" afterPath="$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/mapper/UserEntityMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/cloud-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/cloud-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/api/impl/CarRemoteServiceApiImpl.java" afterPath="$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/web/api/impl/CarRemoteServiceApiImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/component/Result.java" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/component/Response.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/api/callback/CarCallBackApi.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/api/callback/CarCallBackApi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/api/fallback/CarFailBackApi.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/api/fallback/CarFailBackApi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/client/UserClient.java" afterPath="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,18 +81,97 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-user/pom.xml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="213">
+              <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelAndEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/Utils/ModelAndEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Module.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Module.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/interceptor/BootInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerExecutionChain.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="102" column="20" lean-forward="true" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="498" column="0" lean-forward="false" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,6 +193,9 @@
       <find>userClient</find>
       <find>init Druid Servlet Configuration</find>
       <find>BaseResultMap</find>
+      <find>selectByPrimaryKey</find>
+      <find>SecurityManager</find>
+      <find>securityManager</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,23 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/client/UserClient.java" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/api/callback/CarCallBackApi.java" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/api/callback/Fail.java" />
-        <option value="$PROJECT_DIR$/cloud-car/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-zuul/src/main/java/com/example/cloud/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/CarApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/api/impl/CarRemoteServiceApiImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-car/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/api/fallback/Fail.java" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/api/fallback/CarFailBackApi.java" />
-        <option value="$PROJECT_DIR$/cloud-zuul/src/main/java/com/example/cloud/fallback/UserFallBackProvider.java" />
-        <option value="$PROJECT_DIR$/cloud-config/src/main/java/com/example/cloud/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config/src/main/resources/appliction.yml" />
-        <option value="$PROJECT_DIR$/config/user.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-repo/user.yml" />
@@ -173,22 +227,39 @@
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/component/Result.java" />
         <option value="$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/service/impl/CarServiceImpl.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/component/Response.java" />
-        <option value="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/UserService.java" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java" />
         <option value="$PROJECT_DIR$/cloud-user/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/cloud-user/src/main/resources/data.properties" />
         <option value="$PROJECT_DIR$/cloud-user/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.xml" />
         <option value="$PROJECT_DIR$/cloud-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleRoleEntityMapper.java" />
         <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/UserApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/DruidConfiguation.java" />
         <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleRoleEntityMapper.xml" />
-        <option value="$PROJECT_DIR$/cloud-user/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/car/api/CarRemoteServiceApi.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/security/CredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/DruidConfiguation.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/security/AuthRealm.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/filter/EncodeFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/WebMvcConfigation.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/WebMvcConfigurer.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/WebAppConfigurer.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/interceptor/BootInterceptor.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/custom/HashedCredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/custom/MyShiroRealmService.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/ShiroConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/UserService.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/RoleEntity.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/ModuleEntity.java" />
+        <option value="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java" />
+        <option value="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Module.java" />
+        <option value="$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Role.java" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/Utils/ModelAndEntity.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java" />
       </list>
     </option>
   </component>
@@ -227,18 +298,8 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cloud" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+          <option name="myItemId" value="Run Configurations" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RunConfigurationsNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -248,6 +309,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -264,10 +328,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="cloud" />
@@ -278,9 +353,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +459,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-user" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/pro/ideaPro/cloud/cloud-car/src/main/java/com/example/cloud/service/impl/CarServiceImpl.java" />
   </component>
   <component name="RecentsManager">
@@ -823,7 +989,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cloud-user" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -925,7 +1091,11 @@
       <workItem from="1554083930478" duration="1048000" />
       <workItem from="1554085255541" duration="6741000" />
       <workItem from="1554104686941" duration="5834000" />
-      <workItem from="1554168965829" duration="8802000" />
+      <workItem from="1554168965829" duration="32178000" />
+      <workItem from="1554359951791" duration="8208000" />
+      <workItem from="1554945862145" duration="3630000" />
+      <workItem from="1554949583101" duration="8861000" />
+      <workItem from="1557105953056" duration="5260000" />
     </task>
     <task id="LOCAL-00001" summary="提交两个配置文件">
       <created>1553754074093</created>
@@ -938,35 +1108,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129675000" />
+    <option name="totallyTimeSpent" value="179010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31121135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57394844" sideWeight="0.5025773" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25064433" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4662162" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5345997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59023064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3568521" sideWeight="0.4974227" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28286082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -974,7 +1145,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1024,7 +1194,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1033,365 +1203,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-repo/user.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/UserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/cloud-config-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-repo/cloud-config-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-server/src/main/java/com/example/cloud/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/service/CarService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/CarApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/web/api/impl/CarRemoteServiceApiImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/client/UserClient.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/UserClient.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/car/model/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/api/fallback/CarFailBackApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/api/callback/CarCallBackApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.4.RELEASE/spring-boot-dependencies-2.0.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="1069" column="12" lean-forward="false" selection-start-line="1069" selection-start-column="12" selection-end-line="1069" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/package-info.java" />
-    <entry file="uml://MAVEN/com.example:cloud-user:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.example:cloud-user:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.example:cloud-user:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.32</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.32</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.32</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-web:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-web:jar:5.0.8.RELEASE/org.springframework:spring-beans:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE/org.springframework:spring-context:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE/org.springframework:spring-expression:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.springframework:spring-core:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.springframework:spring-core:jar:5.0.8.RELEASE/org.springframework:spring-jcl:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.springframework:spring-test:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60/org.bouncycastle:bcprov-jdk15on:jar:1.60</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/javax.ws.rs:jsr311-api:jar:1.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-core:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-client:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.apache.httpcomponents:httpclient:jar:4.5.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.apache.httpcomponents:httpclient:jar:4.5.6/org.apache.httpcomponents:httpcore:jar:4.4.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.apache.httpcomponents:httpclient:jar:4.5.6/commons-codec:commons-codec:jar:1.11</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.3.0/io.github.openfeign.form:feign-form:jar:3.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.3.0/io.github.openfeign.form:feign-form:jar:3.3.0/com.google.code.findbugs:annotations:jar:3.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.3.0/io.github.openfeign.form:feign-form:jar:3.3.0/com.google.code.findbugs:annotations:jar:3.0.1/net.jcip:jcip-annotations:jar:1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.3.0/io.github.openfeign.form:feign-form:jar:3.3.0/com.google.code.findbugs:annotations:jar:3.0.1/com.google.code.findbugs:jsr305:jar:3.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.3.0/commons-fileupload:commons-fileupload:jar:1.3.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.2.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.3.0/commons-fileupload:commons-fileupload:jar:1.3.3/commons-io:commons-io:jar:2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.2.RELEASE/org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/io.github.openfeign:feign-core:jar:9.7.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/io.github.openfeign:feign-slf4j:jar:9.7.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/io.github.openfeign:feign-hystrix:jar:9.7.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.2.RELEASE/io.github.openfeign:feign-java8:jar:9.7.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.apache.commons:commons-lang3:jar:3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.aspectj:aspectjweaver:jar:1.8.13</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.2.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1/org.reactivestreams:reactive-streams:jar:1.0.2</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis:jar:3.4.0</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis-spring:jar:1.3.0</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE/com.zaxxer:HikariCP:jar:2.7.9</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE/org.springframework:spring-jdbc:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE/org.springframework:spring-jdbc:jar:5.0.8.RELEASE/org.springframework:spring-tx:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.2.5</node>
-            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.2.5/org.apache.shiro:shiro-core:jar:1.2.5</node>
-            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.2.5/org.apache.shiro:shiro-core:jar:1.2.5/commons-beanutils:commons-beanutils:jar:1.8.3</node>
-            <node x="" y="">org.apache.shiro:shiro-spring:jar:1.2.5/org.apache.shiro:shiro-web:jar:1.2.5</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.46</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.18</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.18/com.alibaba:jconsole:jar:1.8.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.18/com.alibaba:tools:jar:1.8.0</node>
-            <node x="" y="">com.example:cloud-remote-model-api:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">com.example:cloud-common:jar:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.13108108108108107" x="1771.0" y="2580.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/service/impl/CarServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-car/src/main/java/com/example/cloud/client/CarClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="352">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#844#845#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserRoleEntityMapper.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/SecurityManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="4136">
+          <caret line="226" column="6" lean-forward="false" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/UserEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/mgt/SecurityManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="726">
+          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.java">
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleRoleEntityMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/target/classes/application.properties" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.4.RELEASE/spring-boot-starter-parent-2.0.4.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleRoleEntityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="144" column="16" lean-forward="false" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/mapper/ModuleEntityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="1012">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <marker date="1554190762508" expanded="true" signature="678:889" ph="insert into fp_shiro_module_role... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleEntityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        <state relative-caret-position="178">
+          <caret line="80" column="11" lean-forward="false" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
           <folding>
             <marker date="1554103775274" expanded="true" signature="762:875" ph="select from fp_shiro_module" />
             <marker date="1554103775274" expanded="true" signature="961:1028" ph="delete from " />
@@ -1402,157 +1259,288 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserRoleEntityMapper.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/subject/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <marker date="1554103715081" expanded="true" signature="672:881" ph="insert into fp_shiro_user_role... " />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="91" column="11" lean-forward="false" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="93" column="26" lean-forward="true" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/authc/AbstractAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/authc/UsernamePasswordToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/authc/UnknownAccountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="278" column="63" lean-forward="true" selection-start-line="278" selection-start-column="63" selection-end-line="278" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/authc/credential/CredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/UserEntityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
-            <marker date="1554109165383" expanded="true" signature="983:1094" ph="select from fp_shiro_user" />
-            <marker date="1554109165383" expanded="true" signature="1180:1245" ph="delete from " />
-            <marker date="1554109165383" expanded="true" signature="1337:1665" ph="insert into fp_shiro_user... " />
-            <marker date="1554109165383" expanded="true" signature="3051:3694" ph="update fp_sh... " />
-            <marker date="1554109165383" expanded="true" signature="3798:4133" ph="update fp_sh... " />
+            <marker date="1554949051017" expanded="true" signature="1241:1527" ph="SELECT u.*,r... fp_shiro_user" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/target/classes/com/example/cloud/mapper/ModuleRoleEntityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="265" column="16" lean-forward="false" selection-start-line="265" selection-start-column="16" selection-end-line="265" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/annotation/MapperScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleRoleEntityMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleEntityMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE-sources.jar!/org/springframework/context/annotation/PropertySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="163" column="18" lean-forward="false" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/DruidConfiguation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="22">
+          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="158" column="45" lean-forward="true" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="false" />
+            <element signature="e#5784#5785#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/authc/credential/SimpleCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/security/CredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/security/AuthRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="206" column="16" lean-forward="false" selection-start-line="206" selection-start-column="16" selection-end-line="206" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.5/shiro-web-1.2.5.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/custom/MyShiroRealmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/custom/HashedCredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/WebAppConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/config/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/mapper/ModuleRoleEntityMapper.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="74" column="57" lean-forward="true" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/resources/application-dev.properties">
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/filter/EncodeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/component/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="150">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/ModuleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/RoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/UserRoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/entity/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/car/api/CarRemoteServiceApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1564,37 +1552,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Module.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/UserApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="83">
+          <caret line="498" column="0" lean-forward="false" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-user/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="149">
+          <caret line="102" column="20" lean-forward="true" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/common/interceptor/BootInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-remote-model-api/src/main/java/com/example/cloud/user/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/cloud/Utils/ModelAndEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-user/src/main/java/com/example/cloud/web/admin/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding />
         </state>
       </provider>

@@ -49,11 +49,11 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration> <fork>true</fork></configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+                <!--<configuration> <fork>true</fork></configuration>-->
+            <!--</plugin>-->
 
                 <!--<plugin>-->
                     <!--<groupId>org.mybatis.generator</groupId>-->
@@ -93,6 +93,12 @@
                 <directory>src/main/java</directory>
                 <includes>
                     <include>**/*/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
                 </includes>
             </resource>
         </resources>

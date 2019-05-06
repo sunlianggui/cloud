@@ -1,4 +1,5 @@
 com\example\cloud\commonservice\CaculatorImpl.class
+com\example\cloud\Utils\ModelAndEntity.class
 com\example\cloud\commonservice\JVM.class
 com\example\cloud\commonservice\Caculator.class
 com\example\cloud\commonservice\JDKProxyImpl.class

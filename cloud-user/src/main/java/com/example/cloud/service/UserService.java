@@ -2,6 +2,7 @@ package com.example.cloud.service;
 
 import com.example.cloud.car.model.Car;
 import com.example.cloud.component.Response;
+import com.example.cloud.entity.UserEntity;
 import com.example.cloud.user.model.User;
 
 /**

@@ -32,8 +32,8 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "login", method = RequestMethod.GET)
-    public Response<User> login(@RequestParam("userName") String userName,
-                                @RequestParam("password") String password){
+    public Response<User> login(@RequestParam("username") String userName,
+                                      @RequestParam("password") String password){
         return userService.login(userName, password);
     }
 }
